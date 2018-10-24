@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script src = "js/require.js" async = "true" defer data-main = "js/index"></script>
+		<link rel="stylesheet" href="iconfont/iconfont.css">
+		<link rel="stylesheet" href="css/details.min.css">
+
+	</head>
+	<body>
+		<div class="outline">
+			<div class="header">
+				<div class="top downtop">
+					<ul class = "left iconfont">
+						<li><a href="">首页</a></li>
+						<li><a href="">华为官网</a></li>
+						<li><a href="">荣耀官网</a></li>
+						<li><a href="">花粉俱乐部</a></li>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">V码(优购码)</a></li>
+						<li><a href="">企业购</a></li>
+						<li><a href="">Select Region</a></li>
+						<li class = "download iconfont">
+							<a href="">
+							下载APP&nbsp;<b class = "tag">&#xe60c;</b>
+								<div class = "downnode down-div">
+									<img src="images/qrcode_vmall_new_app01.png" alt="">
+									<p>扫一扫，<a href="">下载微信客服端</a></p>
+								</div>
+								
+							</a>
+						</li>
+						<li class = "download iconfont fixli">
+							<a href="">
+								更多精彩&nbsp;<b class = "tag">&#xe60c;</b>
+							</a>
+							<ul class = "downnode down-ul">
+								<li><a href="">EMUL</a></li>
+								<li><a href="">应用市场</a></li>
+								<li><a href="">华为终端云空间</a></li>
+								<li><a href="">开发者联盟</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="right iconfont downtop">
+						<li class = "login"><a href="#">请登录</a></li>
+						<li><a href="register.html">注册</a></li>
+						<li><a href="">我的订单</a></li>
+						<li class = "shopcar download">
+							<a href=""><b>&#xe602;&nbsp;</b>购物车(<span>0</span>)</a>
+							<div class = "down-car downnode">
+								
+								<p>您的购物车是空的，赶紧选购吧</p>
+								<a href="">
+									去逛逛吧
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="nav">
+					<ul class = "nav-ul">
+						<li class = "first"><a href=""></a></li>
+						<li class = "second"><a href="index.html"></a></li>
+						<li id = "phone" class = "downMenu phone">
+							<a href="">手机</a>	
+						</li>
+						<li id = "compoter" class = "downMenu"><a href="">笔记本电脑</a></li>
+						<li id = "panel" class = "downMenu"><a href="">平板&穿戴</a></li>
+						<li id = "furniture" class = "downMenu"><a href="">智能家居</a></li>
+						<li id = "parits" class = "downMenu"><a href="">配件</a></li>
+						<li><a href="">荣耀专区</a></li>
+					</ul>
+					<form action="">
+						<input type="text" placeholder="麦芒7&nbsp;华为p20" class = "text">
+						<input type="text" value="" class = "button">
+					</form>
+				</div>
+			</div>
+			<!-- 下拉菜单 -->
+			<div class="hideload">
+				<div class = "down-phone">
+					<ul class = "down-1">
+						
+					</ul>
+								
+					<ul class = "down-2">
+					</ul>
+								
+				</div>
+			</div>
+			<!-- 内容开始 -->
+			<div class="content2">
+				<div class="owntop">
+					<ul class="ul1">
+						<li><a href="">首页</a></li>
+						<li><a href="">></a></li>
+						<li><a href="">手机</a></li>
+					</ul>
+				</div>
+				<div class="div1 iconfont" id = "dragParent">
+					<div class="leftD">
+						<div class="imgP">
+							<img  style = "display:block" src="images/800_800_1535181892466mp.jpg" alt="">
+							<img src="images/800_800_1535181869906.jpg" alt="">
+							<img src="images/800_800_1535181873237.jpg" alt="">
+							<img src="images/800_800_1535181876861.jpg" alt="">
+							<img src="images/800_800_1535181879000.jpg" alt="">
+							<img src="images/800_800_1535181880374.jpg" alt="">
+							<!-- 拖动框 -->
+							<div class="drag"></div>
+						</div>
+						<div class="ulP">
+							<ul>
+								<li><img src="images/78_78_1535181892466mp.jpg" alt=""></li>
+								<li><img src="images/78_78_1535181869906.jpg" alt=""></li>
+								<li><img src="images/78_78_1535181873237.jpg" alt=""></li>
+								<li><img src="images/78_78_1535181876861.jpg" alt=""></li>
+								<li><img src="images/78_78_1535181879000.jpg" alt=""></li>
+								<li><img src="images/78_78_1535181880374.jpg" alt=""></li>
+							</ul>
+
+							<div class="butLeft">
+								<a href="">&#xe6fa;</a>
+							</div>
+							<div class="butRight">
+								<a href="">&#xe6fb;</a>
+							</div>
+						</div>
+						
+					</div>
+					<!-- 放大镜 显示框-->
+					<div class="glass">
+						<img  style = "display:block" src="images/800_800_1535181892466mp.jpg" alt=""  id = "glassImg">
+							<img src="images/800_800_1535181869906.jpg" alt="">
+							<img src="images/800_800_1535181873237.jpg" alt="">
+							<img src="images/800_800_1535181876861.jpg" alt="">
+							<img src="images/800_800_1535181879000.jpg" alt="">
+							<img src="images/800_800_1535181880374.jpg" alt="">
+					</div>
+					<div class="rightD">
+						
+						<p class = "p1">HUAWEI 麦芒7 6GB 全网通版 (铂光金)</p>
+						<p class="p2">【新品上市多重好礼】1 送麦芒7专属礼包+保温杯 2 晒单即有机会赢华为手表，赠品有限，赠送完即止</p>
+						<div class="inner">
+							<p class="nullp"></p>
+							<p class="price">
+								<span class="span1">&nbsp;价&nbsp;&nbsp;&nbsp;&nbsp;格</span>
+								<span class="span2">￥2399.00</span>
+							</p>
+							<p class="sales">
+								<span class="span1">&nbsp;
+									促&nbsp;&nbsp;&nbsp;&nbsp;销
+								</span>
+								<span class="Right">
+									<span class="list1">
+										<span class = "s1">赠品</span>
+										<i>10大家打电话大家圣诞节时代峰峻</i>
+									</span>
+									<span class="list1">
+										<span class = "s1">赠品</span>
+										<i>10大家打电话大家圣诞节时代峰峻</i>
+									</span>
+									<span class="list1">
+										<span class = "s1">赠品</span>
+										10大家打电话大家圣诞节时代峰峻
+									</span>
+								</span>
+							</p>
+						</div>
+						 <ul class = "ulfix">
+							<li>服务说明</li>
+							<li class = "li1">已满48元免运费</li>
+							<li>由华为商城负责发货，并提供售后服务</li>
+						</ul>
+						<ul class = "ulfix">
+							<li>商品编码</li>
+							<li>2601010055001</li>
+						</ul>
+						<!-- 分割线 -->
+						<div class="bottomD">
+							<ul class = "ul1">
+								<li class = "first">选择颜色</li>
+								<li class = "element">
+									
+									<div class = "color">
+										<ul>
+											<li><img src="images/40_40_1535181892466mp.jpg" alt=""><p>亮黑色</p></li>
+											<li><img src="images/40_40_1535181892466mp.jpg" alt=""><p>宝石蓝</p></li>
+											<li><img src="images/40_40_1535181892466mp.jpg" alt=""><p>樱花粉</p></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class = "ul2">
+								<li class = "first">选择版本</li>
+								<li class = "element">
+									
+									<div class = "color">
+										<ul>
+											<li>全网通6GB+64GB</li>
+											<li>全网通6GB+128GB</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class = "ul2">
+								<li class = "first">选择套餐</li>
+								<li class = "element">
+									
+									<div class = "color">
+										<ul>
+											<li>官方标配</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class = "ul2">
+								<li class = "first">保障服务</li>
+								<li class = "element">
+									
+									<div class = "color">
+										<ul>
+											<li>延长服务保一年 ￥258</li>
+											<li>屏碎(含后盖)服务宝1年 ￥199</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<ul class = "ul2">
+								<li class = "first">已选择商品</li>
+								<li class = "element">
+									
+									<div class = "color">
+										<ul>
+											<li style = "border :none">极光色/全网通6GB+64GB/官方标配/无增值业务</li>
+											
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<!--  -->
+							<ul class = "ul3">
+								<li class = "first">
+									<div class="divnum">
+										1
+									</div>
+									<div class="divtext">
+										<p class = "p1">+</p>
+										<p>-</p>
+									</div>
+								</li>
+								<li class="add"><a href="">加入购物车</a></li>
+								<li class="lilast"><a href="">立即下单</a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!-- 内容结束 -->
+			<div class="message">
+				<ul class = "top">
+					<li><a href="">百强企业品质保证</a></li>
+					<li><a href="">七天退货&nbsp;15天换货</a></li>
+					<li><a href="">48元起免运费</a></li>
+					<li><a href="">448家维修网点 全国联保</a></li>
+				</ul>
+				<div class="tail">
+					<dl>
+						<dt>购物相关</dt>
+						<dd><a href="">购物指南</a></dd>
+						<dd><a href="">配送方式</a></dd>
+						<dd><a href="">支付方式</a></dd>
+						<dd><a href="">常见问题</a></dd>
+					</dl>
+					<dl>
+						<dt>保修与退换货</dt>
+						<dd><a href="">购物指南</a></dd>
+						<dd><a href="">配送方式</a></dd>
+						<dd><a href="">支付方式</a></dd>
+						<dd><a href="">常见问题</a></dd>
+						<dd><a href="">配件防伪查询</a></dd>
+					</dl>
+					<dl>
+						<dt>维修与技术支持</dt>
+						<dd><a href="">购物指南</a></dd>
+						<dd><a href="">配送方式</a></dd>
+						<dd><a href="">备件价格查询</a></dd>
+						<dd><a href="">上门服务</a></dd>
+					</dl>
+					<dl>
+						<dt>保修与退换货</dt>
+						<dd><a href="">购物指南</a></dd>
+						<dd><a href="">配送方式</a></dd>
+						<dd><a href="">支付方式</a></dd>
+						<dd><a href="">常见问题</a></dd>
+						<dd><a href="">配件防伪查询</a></dd>
+					</dl>
+					<dl>
+						<dt>维修与技术支持</dt>
+						<dd><a href="">购物指南</a></dd>
+						<dd><a href="">配送方式</a></dd>
+						<dd><a href="">备件价格查询</a></dd>
+						<dd><a href="">上门服务</a></dd>
+					</dl>
+					<dl>
+						<dt>保修与退换货</dt>
+						<dd><a href="">购物指南</a></dd>
+						<dd><a href="">配送方式</a></dd>
+						<dd><a href="">支付方式</a></dd>
+						<dd><a href="">常见问题</a></dd>
+						<dd><a href="">配件防伪查询</a></dd>
+					</dl>
+					<dl>
+						<dt class = "last">400-088-6888</dt>
+						<dd>24小时服务热线（仅收市花费）</dd>
+						<dd class="phone">
+							<img src="images/message_32.jpg" alt="">在线客服
+						</dd>
+					</dl>
+
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="Bcontent">
+					<img src="images/flogo.png" alt="">
+					<div class="middle">
+						<p>
+						隐私声明服务协议Copyright © 2012-2018 华为软件技术有限公司 版权所有 保留一切权利</p>
+						<p>苏公网安备32011402010009号苏ICP备17040376号增值电信业务经营许可证：苏B2-20130048号</p>
+					</div>
+					<div class="right">
+						<a href=""><img src="images/20180522101715775.jpg" alt=""></a>
+						<a href=""><img src="images/20160226162415360.png" alt=""></a>
+						<a href=""><img src="images/20160226162521265.png" alt=""></a>
+						<a href=""><img src="images/20180626164548324.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 登陆注册页面 -->
+		<div class="hiddenWindow">
+			<div class="login">
+				<div class="top"><span class = "close">X</span></div>
+				<div class="contLogin">
+					<ul class = "but">
+						<li>账号登录</li>
+						<li>扫码</li>
+					</ul>
+					<div class="card">
+						<div class="card1 cardq" style = "display:block">
+							<p class = "prompt"></p>
+							<form action="">
+								<input type="text"placeholder = "手机号/邮件地址">
+								<input type="password" placeholder="密码">
+								<p class = "note" ><a href="">短信验证码登陆</a></p>
+								<input type="submit" class = "loginButn">
+
+							</form>
+						
+						
+							<ul class = "ul1">
+							
+								<li class = "leftP"><a href=""><p></p><i>记住华为账号</i></a></li>
+								<li class = "rightp"><a href="">更多</a></li>
+							</ul>
+							<ul class = "ul2">
+							
+								<li class = "leftP"><a href="">注册账号</a></li>
+								<li class = "rightp"><a href="">忘记密码？</a></li>
+							</ul>
+							<div class="nullD">	</div>
+							<div class="way">
+								<div class="title"></div>
+								<div class="wayInner iconfont" >
+									<a href="">&#xe60b;</a>
+									<a href="">&#xe65f;</a>
+									<a href="">&#xe6ef;</a>
+								</div>
+							</div>
+						</div>
+						<div class="card2 cardq">
+							<img src="images/login2_03.jpg" alt="">
+							<p>使用<a href="">华为移动服务APP</a>扫一扫</p>
+							<p>若您使用华为手机，请进入“设置”>"华为账号"扫码登录。</p>
+						</div>
+					</div>
+					
+					<!-- 卡片 -->
+					<p class="bottomP">
+							继续访问代表您已同意
+							<a href="">华为商城服务协议</a>
+							和
+							<a href="">华为隐私政策</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
